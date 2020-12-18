@@ -8,12 +8,20 @@
     myFunc should return getSecretString
   */
   
-  //CODE HERE
+ function myFunc(){
+  var myStr = 'super secret string'
+  function getSecretString(){
+    return myStr
+  }
+  return getSecretString()
+}
+
+  myFunc()
 
   
   //Now create a variable called secretString. Its value should be the invocation of myFunc.
 
-  //CODE HERE
+  const secretString = myFunc()
   
   
   ////////////PROBLEM 2////////////
